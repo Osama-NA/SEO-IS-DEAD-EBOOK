@@ -6,9 +6,9 @@ Chasing keywords, backlinks, and page-one rankings won’t cut it in 2025. AI as
 
 Today, winning visibility means becoming the recognized, referenced, and relied-on source for both humans and algorithms.
 
-## That’s where AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization) come in.
+That’s where AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization) come in.
 
-## Inside this guide, you’ll learn
+#### Inside this guide, you’ll learn
 
 - How AI is changing search forever
 - AEO & GEO explained, and why they matter now more than ever
