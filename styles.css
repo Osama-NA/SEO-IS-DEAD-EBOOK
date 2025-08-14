@@ -1,0 +1,502 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    font-family: "Aileron", sans-serif;
+    color: #000;
+    background: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.red-highlight-txt {
+    color: rgb(240, 69, 69);
+    font-weight: 600;
+}
+
+.red-highlight-bg {
+    background: #df4e4e !important;
+}
+
+.light {
+    color: #bbbbbb;
+    font-weight: 700;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.primary-btn {
+    display: block;
+    background: #000;
+    color: #dfdfdf;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/* HEADER */
+.top-bar {
+    padding: 4rem;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-svg {
+    height: 72px;
+    margin-right: -8px;
+    position: relative;
+    left: -12px;
+}
+
+.logo-text {
+    max-width: 12ch;
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: 0.325px;
+    line-height: 21px;
+}
+
+.logo-text span {
+    color: #a6a6a6;
+    font-weight: 500;
+}
+
+.instagram-link {
+    padding-top: 5px;
+}
+
+.instagram-icon {
+    height: 36px;
+    width: 36px;
+}
+
+/* MAIN SECTION */
+.main-section {
+    padding: 0 4rem 6rem;
+}
+
+.main-section .container {
+    display: flex;
+    gap: 4rem;
+}
+
+.ebook-left {
+    flex: 1;
+    min-width: 450px;
+    text-align: center;
+}
+
+.ebook-cover {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    max-width: 450px;
+    height: 450px;
+    border: 6px solid #000;
+}
+
+.ebook-image {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.download-btn {
+    font-size: 14px;
+    margin-top: 1.25rem;
+}
+
+.download-btn span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.ebook-right {
+    flex: 2;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    font-size: 65px;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+ul {
+    margin: 10px 0 0 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* CTA SECTION */
+.cta-section {
+    position: relative;
+    padding: 6rem 4rem 6.5rem;
+    text-align: center;
+}
+
+.cta-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("assets/images/cta-section-background.png") center/cover no-repeat;
+    opacity: 0.085;
+    z-index: -1;
+}
+
+.cta-section p {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cta-section h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    margin-bottom: 3rem;
+}
+
+.cta-text {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 750px;
+    padding-bottom: 2rem;
+}
+
+.cta-btn {
+    font-weight: 800;
+    max-width: 450px;
+    margin: 2rem auto 0;
+    padding: 0.85rem 2rem 1.35rem;
+}
+
+.cta-btn span {
+    font-size: 25px;
+}
+
+/* FOOTER */
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 2rem 4rem;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .logo-text {
+    position: relative;
+    top: -3px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    max-width: fit-content;
+}
+
+.footer .instagram-link {
+    color: #fff;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+
+    /* GENERAL */
+    .primary-btn {
+        padding: 0.85rem 1.85rem;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    /* HEADER */
+    .top-bar {
+        padding: 2rem 2rem 4rem;
+    }
+
+    .logo-svg {
+        height: 65px;
+    }
+
+    .logo-text {
+        font-size: 17px;
+        letter-spacing: 0.25px;
+        line-height: 19px;
+        margin-left: -2px;
+    }
+
+    /* MAIN SECTION */
+    .main-section {
+        padding: 0 2rem 4rem;
+    }
+
+    .main-section .container {
+        gap: 2rem;
+    }
+
+    .ebook-left {
+        min-width: 300px;
+    }
+
+    .ebook-cover {
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .download-btn {
+        font-size: 12px;
+        margin-top: 1.25rem;
+    }
+
+    .download-btn span {
+        font-size: 14px;
+    }
+
+    .ebook-right {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 52px;
+        line-height: 1.1;
+        letter-spacing: 0.45px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 26ch;
+        margin: 0.75rem 0 1.5rem;
+    }
+
+    ul {
+        margin: 7.5px 0 0 20px;
+    }
+
+    ul li {
+        margin-bottom: 2.5px;
+    }
+
+    /* CTA SECTION */
+    .cta-section {
+        padding: 4rem 2rem 4.5rem;
+    }
+
+    .cta-section h2 {
+        font-size: 24px;
+        letter-spacing: .75px;
+        margin-bottom: 1.75rem;
+    }
+
+    .cta-text {
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 550px;
+        padding-bottom: .75rem;
+    }
+
+    .cta-btn {
+        max-width: 300px;
+        margin: 1.75rem auto 0;
+        padding: 0.75rem 1.85rem 1rem;
+    }
+
+    .cta-btn span {
+        font-size: 19px;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 1.5rem 2rem;
+    }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    /* GENERAL */
+    .primary-btn {
+        padding: 0.85rem 1.85rem;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .container {
+        max-width: 570px;
+    }
+
+    .instagram-icon {
+        height: 28px;
+        width: 28px;
+    }
+
+    /* HEADER */
+    .top-bar {
+        padding: 2rem 1rem;
+    }
+
+    .logo-svg {
+        height: 60px;
+    }
+
+    .logo-text {
+        font-size: 14px;
+        line-height: 17px;
+        margin-left: -1px;
+    }
+
+    /* MAIN SECTION */
+    .main-section {
+        padding: 0 1rem 3rem;
+    }
+
+    .main-section .container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .ebook-left {
+        min-width: 250px;
+    }
+
+    .ebook-cover {
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .ebook-image {
+        max-width: 240px;
+    }
+
+    .download-btn {
+        font-size: 10px;
+        margin-top: 1rem;
+    }
+
+    .download-btn span {
+        font-size: 12px;
+    }
+
+    .ebook-right {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 1.15;
+        letter-spacing: 0.25px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 100%;
+        margin: 0.35rem auto 1.5rem;
+    }
+
+    ul {
+        margin: 7.5px 0 0 20px;
+    }
+
+    ul li {
+        margin-bottom: 2.5px;
+    }
+
+    /* CTA SECTION */
+    .cta-section {
+        padding: 3rem 1rem 3.5rem;
+    }
+
+    .cta-section h2 {
+        font-size: 22px;
+        letter-spacing: .55px;
+        margin-bottom: 1.25rem;
+    }
+
+    .cta-text {
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 500px;
+        padding-bottom: 1rem;
+    }
+
+    .cta-btn {
+        max-width: 570px;
+        margin: 1.35rem auto 0;
+        padding: 0.75rem 1.85rem 1rem;
+    }
+
+    .cta-btn span {
+        font-size: 17px;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 1.1rem 1rem;
+    }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .subtitle {
+        max-width: 24ch;
+    }
+
+    /* CTA SECTION */
+    .cta-section {
+        padding: 3rem 1rem 4rem;
+    }
+
+    .cta-section h2 {
+        max-width: 22ch;
+        margin: 0 auto 1.25rem;
+    }
+
+    .cta-text {
+        max-width: 360px;
+    }
+}
