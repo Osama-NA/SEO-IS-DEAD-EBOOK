@@ -63,11 +63,9 @@ body {
     align-items: center;
 }
 
-.logo-svg {
-    height: 72px;
-    margin-right: -8px;
-    position: relative;
-    left: -12px;
+.logo img {
+    height: 55px;
+    margin-right: 10px;
 }
 
 .logo-text {
@@ -253,8 +251,8 @@ ul li {
         padding: 2rem 2rem 4rem;
     }
 
-    .logo-svg {
-        height: 65px;
+    .logo img {
+        height: 50px;
     }
 
     .logo-text {
@@ -280,6 +278,7 @@ ul li {
     .ebook-cover {
         max-width: 300px;
         height: 300px;
+        border: 5px solid #000;
     }
 
     .download-btn {
@@ -374,8 +373,9 @@ ul li {
         padding: 2rem 1rem;
     }
 
-    .logo-svg {
-        height: 60px;
+    .logo img {
+        height: 40px;
+        margin-right: 7.5px;
     }
 
     .logo-text {
@@ -401,6 +401,7 @@ ul li {
     .ebook-cover {
         max-width: 100%;
         height: 250px;
+        border: 4px solid #000;
     }
 
     .ebook-image {
